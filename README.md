@@ -69,7 +69,7 @@ Install all using Arduino IDE → Tools → Manage Libraries.
 
          
 Clone the Repository
-git clone https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor.git
+git clone [https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor.git](https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor-with-0.96-OLED-Display/tree/main)
 
 
 📹 Demonstration
