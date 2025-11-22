@@ -13,41 +13,41 @@ The Arduino Uno handles sensor data, formatting, and display updates every secon
 
 The DHT11 sensor measures temperature and humidity digitally.
 
-Arduino reads this data using the DHT sensor library.
+   > Arduino reads this data using the DHT sensor library.
 
-The OLED display receives data over I2C (SDA → A4, SCL → A5).
+   > The OLED display receives data over I2C (SDA → A4, SCL → A5).
 
-Values are refreshed every second for real-time monitoring.
+   > Values are refreshed every second for real-time monitoring.
 
 This eliminates the need for the Serial Monitor and gives direct hardware output.
 
 🎯 Features
 
-Real-time temperature monitoring
+  > Real-time temperature monitoring
 
-Real-time humidity display
+  > Real-time humidity display
 
-Crisp 0.96" OLED graphical output
+  > Crisp 0.96" OLED graphical output
 
-Simple 2-wire I2C communication
+  > Simple 2-wire I2C communication
 
-Beginner-friendly hardware setup
+  > Beginner-friendly hardware setup
 
-Low power usage
+  > Low power usage
 
-Perfect for Arduino mini-projects
+  >Perfect for Arduino mini-projects
 
 🛠️ Hardware Components
 
-Arduino Uno
+  > Arduino Uno
 
-DHT11 Temperature & Humidity Sensor
+  > DHT11 Temperature & Humidity Sensor
 
-0.96" OLED Display (SSD1306, I2C)
+  > 0.96" OLED Display (SSD1306, I2C)
 
-Jumper wires
+  > Jumper wires
 
-Breadboard (optional)
+  > Breadboard (optional)
 
 🧩 Software Details
 
@@ -57,44 +57,44 @@ Main File: DHT11_OLED_Display.ino
 
 Required Libraries:
 
-Adafruit Unified Sensor
+  > Adafruit Unified Sensor
 
-DHT Sensor Library (Adafruit)
+  > DHT Sensor Library (Adafruit)
 
-Adafruit GFX
+  > Adafruit GFX
 
-Adafruit SSD1306
+  > Adafruit SSD1306
 
 Install all using Arduino IDE → Tools → Manage Libraries.
 
          
 Clone the Repository
-git clone [https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor.git](https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor-with-0.96-OLED-Display/tree/main)
+  git clone [https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor.git](https://github.com/Anseek/DHT11-Temperature-Humidity-Monitor-with-0.96-OLED-Display/tree/main)
 
 
 📹 Demonstration
 
-Add your project video here:
-temperature and humidity sensing.mp4
+  Add your project video here:
+  temperature and humidity sensing.mp4
 
 🧩 Applications
 
-Room temperature monitoring
+  > Room temperature monitoring
 
-Humidity sensing
+  > Humidity sensing
 
-Portable weather station
+  > Portable weather station
 
-IoT learning projects
+  > IoT learning projects
 
-Smart home prototypes
+  > Smart home prototypes
 
 🔮 Future Improvements
 
-Add LED/buzzer alerts for high temperature
+  > Add LED/buzzer alerts for high temperature
 
-Log data on SD card
+  > Log data on SD card
 
-Send data to cloud (ThingSpeak/MQTT)
+  > Send data to cloud (ThingSpeak/MQTT)
 
-Add RTC module (DS3231) for timestamp data
+  > Add RTC module (DS3231) for timestamp data
